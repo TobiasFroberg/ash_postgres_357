@@ -12,6 +12,11 @@ defmodule Helpdesk.Company do
     end
   end
 
+  attributes do
+    uuid_primary_key :id
+    attribute :name, :string
+  end
+
   defimpl Ash.ToTenant do
     def to_tenant(%{id: id}, resource) do
       if Ash.Resource.Info.data_layer(resource) == AshPostgres.DataLayer &&
