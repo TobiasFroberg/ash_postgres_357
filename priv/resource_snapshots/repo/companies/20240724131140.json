@@ -1,0 +1,18 @@
+{
+  "attributes": [],
+  "base_filter": null,
+  "check_constraints": [],
+  "custom_indexes": [],
+  "custom_statements": [],
+  "has_create_action": false,
+  "hash": "91068DFE58D8D872B0DC595F67117F86444BD018F4012A10EEE27F0B80AA9092",
+  "identities": [],
+  "multitenancy": {
+    "attribute": null,
+    "global": null,
+    "strategy": null
+  },
+  "repo": "Elixir.Helpdesk.Repo",
+  "schema": null,
+  "table": "companies"
+}
